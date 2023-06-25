@@ -33,10 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const card = document.createElement('div')
       card.className = 'card-style'
       container.appendChild(card)
-      card.innerHTML = `<h2 style="color:red">${nombre}</h2><img src=${image} style="width:150px"></img><p style="text-align:center">#${id}</p>`
-     
-      
-
+      card.innerHTML = `<h2 style="text-align:center">${nombre}</h2><img src=${image} style="width:120px"></img><p style="text-align:center">#${id}</p>`
     });
   }).catch((error) => console.log("error", error));
   console.log(createPokemon)

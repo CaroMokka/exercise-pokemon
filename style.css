@@ -1,3 +1,20 @@
-.card-style {
-    background-color: green;
+.container-pokemon{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    column-gap: 5px;
+    justify-content: space-around;
+    background-color: #80278D;
+    width: 1000px;
+    margin: auto;
 }
+.card-style {
+    background-color: #F2F2F2;
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+h1 {
+    text-align: center;
+}
+
