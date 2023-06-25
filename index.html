@@ -5,14 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Poke API</title>
 </head>
 
 <body>
     <h1>Poke-Desk</h1>
-    <h2 id="name-pokemon"></h2>
-    <section id="container-pokemon"></section>
+    <main id="container-pokemon">
+        <div id="container-cards" style="background-color:red;width:1000px;margin:auto"></div>
+    </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
     <script type="module" src="getPokemones.js"></script>
 </body>
+
 </html>
